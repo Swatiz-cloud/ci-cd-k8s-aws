@@ -1,4 +1,4 @@
-# 🚀 End-to-End CI/CD Pipeline with Docker, Kubernetes & AWS
+#  End-to-End CI/CD Pipeline with Docker, Kubernetes & AWS
 
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge&logo=amazonaws)
 ![Docker](https://img.shields.io/badge/Docker-Container-blue?style=for-the-badge&logo=docker)
@@ -6,14 +6,14 @@
 ![Jenkins](https://img.shields.io/badge/Jenkins-CI%2FCD-red?style=for-the-badge&logo=jenkins)
 ![GitHub](https://img.shields.io/badge/GitHub-SCM-black?style=for-the-badge&logo=github)
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates a **production-grade end-to-end CI/CD pipeline** using **GitHub, Jenkins, Docker, Kubernetes, and AWS**.
 The pipeline automates application build, containerization, image storage, and deployment to a Kubernetes cluster hosted on AWS EC2 with **zero-downtime rolling updates**.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Automate application build and deployment process
 - Implement containerization using Docker
@@ -23,7 +23,7 @@ The pipeline automates application build, containerization, image storage, and d
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Category           | Tools                |
 |--------------------|----------------------|
@@ -39,7 +39,7 @@ The pipeline automates application build, containerization, image storage, and d
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ![Architecture](https://www.betsol.com/wp-content/uploads/2018/11/dfgsdf.png)
 
@@ -53,7 +53,7 @@ Developer → GitHub → Jenkins → Docker → AWS ECR → Kubernetes → End U
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ci-cd-k8s-aws/
@@ -71,7 +71,7 @@ ci-cd-k8s-aws/
 
 ---
 
-## ⚙️ Prerequisites
+##  Prerequisites
 
 - AWS Account
 - EC2 instances (Jenkins + Kubernetes nodes)
@@ -83,7 +83,7 @@ ci-cd-k8s-aws/
 
 ---
 
-## 🚀 CI/CD Pipeline Stages
+##  CI/CD Pipeline Stages
 
 ### 1️⃣ Source Code Management (GitHub)
 
@@ -114,7 +114,7 @@ ci-cd-k8s-aws/
 
 ---
 
-## 📦 Jenkins Pipeline
+##  Jenkins Pipeline
 
 Pipeline is defined using a **declarative Jenkinsfile**:
 
@@ -126,7 +126,7 @@ Pipeline is defined using a **declarative Jenkinsfile**:
 
 ---
 
-## 🔁 Deployment Strategy
+##  Deployment Strategy
 
 - **RollingUpdate** strategy
 - Multiple replicas for high availability
@@ -134,17 +134,17 @@ Pipeline is defined using a **declarative Jenkinsfile**:
 
 ---
 
-## 📊 Outcome & Benefits
+##  Outcome & Benefits
 
-- 🚀 Reduced release time by **50%**
-- ✅ Zero-downtime deployments
-- 🔄 Automated end-to-end workflow
-- 📦 Consistent and repeatable releases
-- ⚡ Improved reliability and scalability
+- Reduced release time by **50%**
+- Zero-downtime deployments
+- Automated end-to-end workflow
+- Consistent and repeatable releases
+- Improved reliability and scalability
 
 ---
 
-## 🔍 Verification
+##  Verification
 
 ```bash
 kubectl get pods
@@ -160,7 +160,7 @@ http://<NodeIP>:<NodePort>
 
 ---
 
-## 🔐 Security Considerations
+##  Security Considerations
 
 - AWS IAM roles used for ECR access
 - Jenkins credentials stored securely
@@ -168,7 +168,7 @@ http://<NodeIP>:<NodePort>
 
 ---
 
-## 📈 Future Enhancements
+##  Future Enhancements
 
 - Add HPA (Horizontal Pod Autoscaler)
 - Configure Ingress with NGINX
@@ -178,7 +178,7 @@ http://<NodeIP>:<NodePort>
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Swati Zampal**  
 AWS Cloud Engineer | DevOps Trainer  
@@ -188,6 +188,6 @@ GitHub: https://github.com/Swatiz-cloud
 
 ---
 
-## ⭐ Conclusion
+##  Conclusion
 
 This project showcases a **real-world DevOps CI/CD implementation** aligning with industry best practices. It demonstrates expertise in **automation, containerization, orchestration, and cloud deployment**.
