@@ -58,15 +58,21 @@ Developer → GitHub → Jenkins → Docker → AWS ECR → Kubernetes → End U
 ```
 ci-cd-k8s-aws/
 ├── app/
-│   ├── src/
+│   ├── src/main/java/com/example/demo/
+│   │   └── DemoApplication.java
+│   ├── src/main/resources/
+│   │   └── application.properties
 │   ├── pom.xml
 │   └── Dockerfile
+│
 ├── k8s/
+│   ├── namespace.yml
 │   ├── deployment.yml
-│   ├── service.yml
-│   └── namespace.yml
+│   └── service.yml
+│
 ├── Jenkinsfile
 └── README.md
+
 ```
 
 ---
